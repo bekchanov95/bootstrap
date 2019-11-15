@@ -1,0 +1,64 @@
+body{
+    background-color: #fff;
+    margin: 0em;
+    padding: 0em;
+}
+ul{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+    background-color: indigo; 
+}
+li{
+    float: left;
+    }
+li a{
+display:block;
+padding:10px 15px;
+color:white;
+text-align: center;
+text-decoration: none ;
+}
+li a:hover:not(.active){
+    background-color:yellowgreen;
+}
+.active{
+    background-color: rgb(16, 172, 76);
+}
+.right{
+    float: right;
+}
+.btndownload{
+    border: 1px solid white;
+    margin-left:10px;
+
+}
+.examples{
+    float: left;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    background-color: rgb(242, 243, 239);
+}
+.exampleh1{
+color:indigo;
+}
+.paragraph{
+    color:rgb(131, 82, 167);
+}
+.download{
+    color:rgb(20, 1, 22);
+    text-decoration: none;
+    font-size:22px;
+    border: 1px solid black;
+    padding:4px;
+}
+.custom{
+    float: left;
+    margin-top:50px;
+  
+}
+.brand{
+    font-size: 20px;
+}
