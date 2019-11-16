@@ -1,0 +1,104 @@
+body{
+    background-color: #fff;
+    margin: 0em;
+    padding: 0em;
+}
+ul{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+    background-color: indigo; 
+}
+li{
+    float: left;
+    }
+li a{
+display:block;
+padding:10px 15px;
+color:white;
+text-align: center;
+text-decoration: none ;
+}
+li a:hover:not(.active){
+    background-color:yellowgreen;
+}
+.active{
+    background-color: rgb(16, 172, 76);
+}
+.right{
+    float: right;
+}
+.btndownload{
+    border: 1px solid white;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:10px;
+
+}
+.examples{
+    float: left;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    background-color: rgb(242, 243, 239);
+}
+.exampleh1{
+color:indigo;
+}
+.paragraph{
+    color:rgb(131, 82, 167);
+}
+.download{
+    color:rgb(20, 1, 22);
+    text-decoration: none;
+    font-size:22px;
+    border: 1px solid black;
+    padding:4px;
+}
+.custom{
+    float: left;
+    margin-top:50px;
+  
+}
+.brand{
+    font-size: 22px;
+}
+.row{
+    float: left;
+    margin-top:50px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.text-muted{
+    font-size:20px;
+    color: darkgray;
+}
+p{
+    box-sizing: border-box;
+}
+.tables{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.parframe{
+    font-size:22px;
+}
+.Framework{
+    margin-top: 70px;
+    float:left;
+}
+.flex-box{
+    float: left;
+    font-size:22px;
+    margin: 50px 350px 50px 475px;
+    scroll-margin-bottom: 50px;
+    
+}
+.footer{
+    float: left;
+    margin-right: 35px;
+    color:black;
+}
